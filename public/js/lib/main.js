@@ -1,1 +1,1 @@
-angular.module('alupic',[])
+angular.module('alurapic',[])
