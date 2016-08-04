@@ -15,3 +15,21 @@ angular.module('minhasDiretivas',[])
 
     return ddo;
 })
+.directive('minhaFoto', function() {
+
+    var ddo = {}; //directive definition object
+
+    ddo.restrict = "AE";
+
+    ddo.scope = {
+
+        url: '@url'
+    };
+
+    ddo.transclude = true; //manter elementos filhos
+
+    ddo.templateUrl = 'js/directives/minha-foto.html';
+
+    return ddo;
+    
+})
